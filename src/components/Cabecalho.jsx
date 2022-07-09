@@ -1,7 +1,9 @@
-export default function Cabecalho(){
+export default function Cabecalho(abc){
+    const texto = abc.texto 
+
     return(
         <header>
-            <h1>Fundamentos de Next.js & React</h1>
+            <h1>{texto}</h1>
         </header>
     )
 }
